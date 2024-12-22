@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <title>Start</title>
+  <style>
+    ul.nav{
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+    }
+    .nav li { 
+        float: left;
+    }
+    ul.nav a {
+        display: block;
+        width: 10em;
+        padding:10px;
+        margin: 0 5px;
+        background-color: #f4f4f4;
+        border: 1px dashed #333;
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+    }
+    ul.nav a:hover{
+        background-color: #333;
+        color: #f4f4f4;
+    }
+
+    body { 
+      width: 960px; 
+      margin: 0 auto; 
+    }
+    
+</style>
+</head>
+
+<body>
+
+<header>
+
+  <span>Блог Я Практикума</span>
+
+  <ul class="nav">
+  <li><a href="#">Программирование</a></li>
+  <li><a href="#">Маркетинг</a></li>
+  <li><a href="#">Менеджмент</a></li>
+  <li><a href="#">Карьера</a></li>
+  <li><a href="#">Тренды</a></li>
+  <li><a href="#">Учиться в Практикуме</a></li>
+  </ul>
+
+  <nav>Учиться в Практикуме</nav>
+
+</header>
+
+
+<div class="main">
+  
+  <h1>Что такое HTML: основы, необходимые <br> веб‑разработчикам</h1>
+  <span>Знать, что такое HTML-код, важно для всех программистов. Для чего нужен HTML? Это фундамент
+    <br> веб-сайта. С его помощью браузер понимает, как должны отображаться заголовки, изображения,
+    <br> таблицы. Если хотите сделать карьеру в веб-разработке, начинайте с базового навыка — учитесь
+    <br> писать HTML-код</span>
+
+    <img 
+    src="html.jpg"
+    width="920"
+    height="449"
+    >
+
+  
+    <ul>
+    <li><a href="#list1">Что такое HTML</a></li>
+    <a href="#list2"><li>Зачем нужен HTML</li></a>
+    <a href="#list3"><li>Возможности HTML</li></a>
+    <a href="#list4"><li>Преуимущеста и недостатки HTML</li></a>
+    <a href="#list5"><li>Является ли HTML языком программирования</li></a>
+    </ul>
+
+    <h2 id="list1">Что такое HTML</h2>
+    <span>
+      Язык гипертекстовой разметки сайта, или HTML (HyperText Markup Language), — код,<br>
+    помогающий структурировать содержание каждой веб-страницы. С помощью HTML разработчик<br>
+    собирает «скелет». После чего работает с CSS-кодом для стилизации страницы — покрывает<br>
+    «кожей». В финале запускает «кровеносную, пищеварительную и дыхательную системы»,<br>
+    программируя на JavaScript.
+    </span>
+    
+    <p>Что такое язык HTML:</p>
+    <ul>
+      <li>HyperText (гипертекст) — текст, соединяющий связанные между собой элементы.</li>
+    <li>Markup (разметка) — руководство по стилю набора текста.</li>
+    <li>Language (язык) — код, который компьютерная система понимает и использует для интерпретации команд.</li>
+    </ul>
+
+    <figure>
+      <img src="code.png"
+            width="920"
+            height="492">
+      <figcaption>
+        HTML-код гугл-документа, в котором написан этот материал 
+      </figcaption>
+    </figure>
+
+    <span>HTML-документ создаётся в обычном текстовом редакторе — чаще всего в «Блокноте». Есть и<br>
+      специализированные приложения вроде Notepad++ или Visual Studio Code — с подсветкой кода.</span>
+
+      <div class="block">
+        <nav>
+
+        </nav>
+      </div>
+
+      <h2 id="list2">Зачем нужен HTML</h2>
+
+      <p>С помощью языка разметки HTML браузер делает запрос по адресу, который ввёл пользователь,<br>
+            и получает файл в формате «.html». Браузер распознаёт код, выбирает знакомые для себя<br>
+            сигналы: понимает, что написать словами, где поставить заголовок и какой именно. Таким<br>
+            образом код из файла преобразуется в необходимые визуальные объекты.</p>
+            
+      <p>Если вы сейчас за ноутбуком или компьютером, посмотрите, как выглядит HTML этой конкретной<br>
+            страницы блога.</p>
+            
+      <p>Для этого в Safari в настройках необходимо поставить галочку напротив пункта «Показывать<br>
+            меню „Разработка“ в строке меню» в «Дополнениях». После нажать в браузере «Разработка» и<br>
+            «Показать ресурсы страницы».</p>
+            
+      <p>Для Google Chrome щёлкните правой кнопкой мыши в любом месте и выберите “View Page<br>
+            Source”. В зависимости от браузера команды могут различаться</p>
+            <br>
+      <figure>
+        <img src="code2.png"
+            width="920"
+            height="492">
+            <figcaption>
+              HTML-код страницы курса «Веб-разработчик» Яндекс Практикума 
+            </figcaption>
+      </figure>
+
+      <h2 id="list3">Возможности HTML</h2>
+
+      <P>Язык HTML помогает структурировать информацию. Это могут быть команды добавить картинку,<br>
+        разбить текст на абзацы, добавить заголовки и подзаголовки, создать список, вставить таблицу,<br>
+        нарисовать какой-либо элемент. Вёрстка страницы будет выглядеть так, как её закодирует разработчик.</P>
+
+        <p>Что представляет собой HTML: набор команд, который после обработки превращается в <br>
+          визуальное представление. Команда — это тег, состоящий из имени, расположенного между<br>
+          символами «меньше» и «больше». Есть парные теги. Правила вложенности у каждого свои. <br>
+          Например, вот так выглядит строка в списке:<br>
+          </p>
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span> 
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                ul>
+              </b>
+            </span> 
+          </p>
+
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span> 
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+              </span>
+            Название элемента ниже
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span> 
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span> 
+          </p>
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span> 
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                ul>
+              </b>
+            </span>
+            Из-за незакрытого или неправильно закрытого тега вёрстка может ломаться. 
+          </p>
+          Простая HTML-страница состоит из трёх тегов:
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              <
+            </b>
+          </span>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              html>
+            </b>
+          </span>
+          ,
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              <
+            </b>
+          </span>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              head> 
+            </b>
+          </span>
+          и
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              <
+            </b>
+          </span>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              body>
+            </b>
+          </span>
+          . В документе 
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              <
+            </b>
+          </span>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              head>
+            </b>
+          </span>
+          и <br>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              <
+            </b>
+          </span>
+          <span style="color:rgba(4, 165, 4, 1)">
+            <b>
+              body>
+            </b>
+          </span>
+          используют только раз.
+        
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                html>
+              </b>
+            </span>
+              идёт в документе сразу после «доктайпа» — обозначения типа документа. По нему<br>
+            браузер определяет версию HTML и понимает, как правильно отобразить страницу. 
+          </p>
+
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                head> 
+              </b>
+            </span> 
+              хранит важную служебную информацию — заголовок страницы и кодировку.<br>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  body>
+                </b>
+              </span>
+              хранит содержимое страницы. Именно так код отображается в браузере. Тексты и<br>
+              картинки добавляются внутрь этого тега.
+          </p>
+        
+          <h3>Рассмотрим некоторые из других наиболее часто используемых тегов HTML</h3>
+    
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                header> 
+              </b>
+            </span>
+              определяет вводную часть веб-страницы. Содержит логотип, элементы навигации,<br> 
+              панель поиска.
+          </p>
+          <p>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  nav> 
+                </b>
+              </span> 
+                управляет элементами навигации: контакты, информация, часто задаваемые вопросы и<br>
+                другое. 
+          </p>
+          <p>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>          
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  main> 
+                </b>
+              </span>
+                содержит основные разделы HTML-документа, кроме 
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                header> 
+                </b>
+              </span>
+                и 
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                foote> 
+                </b>
+              </span>
+              . В идеале во<br>
+              всём HTML-документе используется только один раз. 
+          </p>
+
+          <p>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  img> 
+                </b>
+              </span>
+                  помогает добавить картинку, но сам по себе он не имеет смысла. Нам потребуется<br>
+                  прописать внутри адрес, ведущий к картинке. Это делается с помощью атрибута src: 
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  img src="адрес">
+                </b>
+              </span>
+          </p>
+
+          <p>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  article> 
+                  </b>
+              </span>
+                  структурирует информацию, работая с комбинацией текста, изображений, видео. 
+          </p>
+
+          <p>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  ectіon>
+                </b>
+              </span>
+                  определяет конкретный раздел веб-страницы. Это может быть раздел «Витрина», «О<br>
+                  нас», «Контакты» или другие. 
+          </p>
+
+          <p>
+            Код просто страницы выглядит так:
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  html>
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  head>
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  <
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  title>
+                </b>
+              </span>
+          </p>
+
+          <p>
+            Заголовок страницы
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                title>
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                head>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                body>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                header>
+              </b>
+            </span>
+            <br>
+              <span style="color:rgba(255, 0, 0)">
+              <b>
+                "logo"
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                >
+              </b>
+            </span>
+            Заголовок
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /h1>
+              </b>
+            </span>
+          </p>
+          <p>
+            <span style="color:rgba(255, 0, 0)">
+              <b>
+                "https://avatars.mds.yandex.net/get- <br>
+                practicum/5750069/2a0000017bf1fd9c30b156ce1fd83a5897d5/orig"
+                </b>
+              </span>
+              <span style="color:rgba(4, 165, 4, 1)">
+                <b>
+                  >
+                </b>
+              </span>
+          </p>
+          <br>
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                main>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(255, 0, 0)">
+              <b>
+                "about me">
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                artecle>
+              </b>
+            </span>
+            <br>
+            Текст
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /article>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /section>
+              </b>
+            </span>
+          </p>
+          <br>
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                nav>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                ul>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            Заголовок 1
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            Заголовок 2
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            Заголовок 3
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                li>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /ul>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                nav>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /header>
+              </b>
+            </span>
+          </p>
+          <br>
+          <p>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /body>
+              </b>
+            </span>
+            <br>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                <
+              </b>
+            </span>
+            <span style="color:rgba(4, 165, 4, 1)">
+              <b>
+                /html>
+              </b>
+            </span>
+          </p>
+          <p>Теги передают фактическое значение — элементы не размещаются автоматически там, где они<br>
+            должны быть. Это делается уже с помощью <a href="https://practicum.yandex.ru/blog/chto-takoe-css/" target="_blank">CSS</a>.</p>
+
+            <h2 id="list4">Преимущества и недостатки HTML</h2>
+          <p>Чтобы специалист понимал, потребуется ли ему HTML в работе и готов ли он его изучать, нужно<br>
+            взвесить все плюсы и минусы этого языка.</p>
+
+          <div>
+          <table>
+            <tr>
+              <th>Преимущества</th>
+              <th>Недостатки</th>
+            </tr>
+            <tr>
+              <td>
+                <li>Подходит почти для всех браузеров, а код можно написать в любом текстовом редакторе.</li>
+              </td>
+              <td>
+                <li>Все повторяющиеся изменения на сайте придётся вносить вручную. Например, заменить на каждой странице пункты меню
+                      и навигации. То же самое с созданием новых страниц — даже если структура повторяется, нужно создавать каждую страницу отдельно.</li>
+                    </td>
+            </tr>
+            <tr>
+              <td>
+                <li>HTML можно использовать бесплатно.</li>
+              </td>
+              <td>
+                <li>Чтобы сделать хороший сайт, который будет быстро открываться на любом устройстве, в режиме чтения или со
+                      скринридера, недостаточно везде использовать < div >. Существует более 100 HTML-элементов, нужно знать их
+                      семантику, где именно их применять.Например, не всегда то, что на макете выглядит таблицей, ей является. Для этого
+                      нужно читать<a href="https://html.spec.whatwg.org/multipage/" target="_blank">спецификацию по HTML</a> и  уметь искать в ней нужную информацию.</li>
+              </td>
+            <tr>
+              <td>
+                <li>Чтобы освоить азы языка разметки гипертекста, достаточно пары часов. У него простой и понятный синтаксис.</li>
+              </td>
+              <td>
+                <li>Если нужно, чтобы сайт выглядел красиво и реагировал на действия пользователя, придётся учить ещё CSS и JS.</li>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <li>Подходит для профессиональных разработчиков сайтов и для любителей.</li>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <li>Статические сайты на HTML, которым не нужно обращаться к базам данных, быстро загружаются, потому что меньше весят и в
+                  них отсутствует «мусорный код». Они дешевле в разработке, и для таких сайтов подойдёт самый дешёвый хостинг</li>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <li>HTML интегрируется с другими языками программирования.</li>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <li>HTML-элементы содержат в себе семантику и работают с учётом цифровой доступности — ими уже могут пользоваться незрячие люди.</li>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <li>HTML способен сам закрывать теги и пропускать синтаксические ошибки. В отличие от ошибки в JS, страница не упадёт,
+                      а всё равно загрузится, пусть и с непредсказуемыми искажениями.</li>
+              </td>
+            </tr>
+          </table>
+          </div>
+
+
+  </div>
+
+</body> 
+
+</html>
